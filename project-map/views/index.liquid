@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RijksArt Explorer</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <h1>Rijksmuseum Collectie</h1>
+  <ul>
+    {% for item in art %}
+      <li>
+        <a href="/art/{{ item.objectNumber }}">
+          <img src="{{ item.webImage.url }}" alt="{{ item.title }}" width="200">
+          <p>{{ item.title }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

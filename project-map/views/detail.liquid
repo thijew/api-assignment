@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ art.title }}</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <a href="/">← Terug</a>
+  <h1>{{ art.title }}</h1>
+  <img src="{{ art.webImage.url }}" alt="{{ art.title }}" width="400">
+  <p>{{ art.longTitle }}</p>
+  <p><strong>Maker:</strong> {{ art.principalMaker }}</p>
+</body>
+</html>

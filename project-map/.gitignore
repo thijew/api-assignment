@@ -1,0 +1,8 @@
+# Node modules
+node_modules/
+
+# Env file met API key
+.env
+
+# OS bestanden 
+.DS_Store

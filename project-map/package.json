@@ -1,0 +1,22 @@
+{
+  "name": "api-assignment",
+  "version": "1.0.0",
+  "description": "A school project where we learn to work with APIs",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "liquid-express-views": "^1.0.8",
+    "liquidjs": "^10.7.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
