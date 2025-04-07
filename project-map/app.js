@@ -2,7 +2,7 @@ import express from "express";
 import liquidExpressViews from "liquid-express-views"; // default import, géén destructuring
 import fetch from "node-fetch";
 import dotenv from "dotenv";
-import indexRouter from "./routes/index.js";
+import indexRouter from "./server.js";
 
 dotenv.config();
 
